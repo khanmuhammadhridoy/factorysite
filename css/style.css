@@ -107,6 +107,7 @@ img {
     float: left;
     font-size: 14px;
     padding: 13px 0px;
+    margin-right: 10px;
 }
 
 /* social box */
@@ -149,12 +150,12 @@ img {
     width: 150px;
     background: #dadada;
 }
-.main-header .header-top .language .dropdown-menu>li{
+.main-header .header-top .language .dropdown-menu>li {
     padding: 0px;
     margin: 0px;
-    float:none;
+    float: none;
     display: block;
-    border-bottom:1px solid #dadada;
+    border-bottom: 1px solid #dadada;
 }
 
 .main-header .header-top .language>a {
@@ -167,4 +168,9 @@ img {
     font-size: 16px;
     border-radius: 0px;
     line-height: 1em;
+    border: 0px;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
 }
